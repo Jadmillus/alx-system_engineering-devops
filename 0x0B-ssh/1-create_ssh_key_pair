@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#Script to generate an SSh key
+
+ssh-keygen -t rsa -b 4096 -C "jad@jad-HP-EliteBook-725-G2" -f school -N 'betty'
